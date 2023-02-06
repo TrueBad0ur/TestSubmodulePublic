@@ -1,6 +1,6 @@
-from Person import Person
+from TestSubmodulePrivate import Person
 
-p1 = Person("John", 36)
+p1 = Person.Person("John", 36)
 
 print(p1.name)
 print(p1.age)
